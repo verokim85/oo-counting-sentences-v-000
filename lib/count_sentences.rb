@@ -15,6 +15,7 @@ def sentence?
   end
 
   def count_sentences
+    binding.pry
    if self.end_with?("." || "?" || "!")
        self.split
    self.each do |element|
