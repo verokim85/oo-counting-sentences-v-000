@@ -19,7 +19,7 @@ def sentence?
        self.split
    self.each do |element|
      element.length
-       if element.length == nil
+       if element.length == 0
          return zero
        else
          element.length
