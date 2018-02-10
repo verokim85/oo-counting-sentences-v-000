@@ -15,16 +15,16 @@ def sentence?
   end
 
   def count_sentences
-    if self.include?(sentence? || question? || exclamation?) == true
-        self.split
-    self.each do |element|
-      element.length
-        if element.length == nil
-          return zero
-        else
-          element.length
-      end
+   if self.end_with?("." || "?" || "!")
+       self.split
+   self.each do |element|
+     element.length
+       if element.length == nil
+         return zero
+       else
+         element.length
+     end
     end
-    end
-end
+   end
+  end
 end
