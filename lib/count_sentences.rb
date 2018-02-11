@@ -22,7 +22,7 @@ def sentence?
 
       count += 1
     end
-    binding.pry
+    # binding.pry
     return count
     end
 
