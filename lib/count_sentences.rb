@@ -16,6 +16,8 @@ def sentence?
 
   def count_sentences
   x = self.split("." || "?" || "!")
+  if []
+    return "0"
    x.each do |element|
      return element.length
        if []
