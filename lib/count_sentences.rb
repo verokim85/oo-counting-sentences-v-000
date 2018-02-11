@@ -18,10 +18,11 @@ def sentence?
   x = self.split("." || "?" || "!")
   if []
     return "0"
+  else
+    
    x.each do |element|
      return element.length
-       if []
-         return 0
+       
     end
     end
    end
