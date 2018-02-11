@@ -16,6 +16,7 @@ def sentence?
 
   def count_sentences
    self.split if self.include?("." || "?" || "!")
+   binding.pry
    self.each do |element|
      element.length
        if element.length == 0
