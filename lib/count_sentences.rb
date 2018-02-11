@@ -17,10 +17,10 @@ def sentence?
   def count_sentences
   x = self.split("." || "?" || "!")
    x.each do |element|
-     element.length
-      if element > 1
+     return element.length
+
           return element.length
-       else 
+       else
          return zero
        end
     end
