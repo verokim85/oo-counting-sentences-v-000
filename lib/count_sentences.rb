@@ -15,7 +15,7 @@ def sentence?
   end
 
   def count_sentences
-  x = self.split.end_with?("." || "?" || "!")
+  x = self.split.include?("." || "?" || "!")
 
    x.each do |element|
      return element.length
