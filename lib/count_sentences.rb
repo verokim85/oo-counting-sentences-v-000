@@ -16,7 +16,7 @@ def sentence?
 
   def count_sentences
     self.split("")
-
+    if sentence? || exclamation? || question?
     end
     end
    end
