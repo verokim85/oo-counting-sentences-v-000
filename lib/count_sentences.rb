@@ -19,10 +19,9 @@ def sentence?
   if []
     return "0"
   else
-    
    x.each do |element|
      return element.length
-       
+
     end
     end
    end
