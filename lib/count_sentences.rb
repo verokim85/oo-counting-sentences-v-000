@@ -17,15 +17,14 @@ def sentence?
   def count_sentences
     x = self.split(" ")
     count = 0
-   x.each do |element|
+    x.each do |element|
       if element.sentence? || element.exclamation? || element.question?
-
-      count += 1
-    end
+        count += 1
+      end
     # binding.pry
-    return count
-    end
 
+    end
+    return count
   end
 
 end
