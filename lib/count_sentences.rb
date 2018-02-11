@@ -19,11 +19,12 @@ def sentence?
     count = 0
    x.each do |element|
       if element.sentence? || element.exclamation? || element.question?
-        binding.pry
+
       count += 1
     end
     return count
     end
+    binding.pry
   end
 
 end
