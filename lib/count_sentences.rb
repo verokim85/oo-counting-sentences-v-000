@@ -20,8 +20,6 @@ def sentence?
      return element.length
        if []
          return 0
-      #  else
-      #    return zero
     end
     end
    end
