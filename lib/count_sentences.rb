@@ -20,6 +20,5 @@ def sentence?
       count += 1
     end
     end
-   end
 
 end
