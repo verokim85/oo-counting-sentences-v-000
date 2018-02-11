@@ -15,12 +15,8 @@ def sentence?
   end
 
   def count_sentences
-  x = self.split("." || "?" || "!")
+    self.split("")
 
-   x.each do |element|
-     return element.length
-     if []
-       return 0
     end
     end
    end
