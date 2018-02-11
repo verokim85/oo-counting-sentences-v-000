@@ -15,8 +15,8 @@ def sentence?
   end
 
   def count_sentences
-  self.split("." || "?" || "!")
-   self.map do |element|
+  x = self.split("." || "?" || "!")
+   x.map do |element|
      element.length
        if element.length < 1
          return zero
