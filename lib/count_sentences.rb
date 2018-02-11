@@ -20,7 +20,7 @@ def sentence?
      element.length
       if element > 1
           return element.length
-       elsif element == []
+       else 
          return zero
        end
     end
