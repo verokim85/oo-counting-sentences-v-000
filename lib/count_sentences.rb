@@ -19,7 +19,7 @@ def sentence?
    x.each do |element|
      return element.length
        if element.length == ""
-         return zero
+         return 0
       #  else
       #    return zero
     end
