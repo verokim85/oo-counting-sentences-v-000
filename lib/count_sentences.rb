@@ -18,7 +18,7 @@ def sentence?
   x = self.split("." || "?" || "!")
    x.map do |element|
      element.length
-       if element.length < 1
+       if element = []
          return zero
        else
          element.length
