@@ -22,7 +22,7 @@ def sentence?
          return zero
       #  else
       #    return zero
-      #  end
+    end
     end
    end
 
