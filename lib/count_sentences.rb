@@ -15,7 +15,7 @@ def sentence?
   end
 
   def count_sentences
-    x = self.split("")
+    x = self.split(" ")
     count = 0
    x.each do |element|
       if element.sentence? || element.exclamation? || element.question?
